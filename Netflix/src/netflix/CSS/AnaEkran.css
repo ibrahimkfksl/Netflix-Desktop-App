@@ -1,0 +1,74 @@
+.search{
+    -fx-border-color: #E50914; /*bu renkle etrafını çizer*/
+    -fx-border-radius: 50%; /* yüzde 50 si kadar yuvarla*/
+}
+
+.scroll-pane:fitToWidth{
+    
+    -fx-background-color: transparent; /*tıkladıgında çevresini mavi yapma*/
+}
+.scroll-pane:fitToWidth .viewport{
+    
+    -fx-background-color: transparent; /*içindeki rengi gönderdik*/
+}
+
+.scroll-pane:fitToWidth .scroll-bar:vertical{
+    -fx-background-color: transparent; /*scrool un arkası için(aşağı yukarı çekme şeyi)*/
+}
+
+
+.scroll-pane:fitToWidth .scroll-bar:vertical .increment-button .increment-arrow{
+    
+    -fx-background-color: transparent;/*scrool un alt butonu için*/
+}
+
+.scroll-pane:fitToWidth .scroll-bar:vertical .increment-button{
+    -fx-background-color: transparent;/*scrool un alt butonu için*/
+}
+
+.scroll-pane:fitToWidth .scroll-bar:vertical .decrement-button{
+    
+    -fx-background-color: transparent;/*scrool un üst butonu için*/
+    
+}
+
+.scroll-pane:fitToWidth .scroll-bar:vertical .decrement-button .decrement-arrow{
+    
+     -fx-background-color: transparent;/*scrool un üst butonu için*/
+}
+
+.scroll-pane:fitToWidth .scroll-bar:vertical .thumb{
+    -fx-background-color: #E50914; /*SCROOL DAKİ BAR RENGİ ÇUBUK RENGİNİ DEĞİŞTİK*/
+    -fx-background-insets: 5 5 5 5; /*üstten altan sağdan soldan incelt*/
+}
+
+.textColor{
+    -fx-text-fill: #ACAEB0;
+}
+
+.hboxNonSelection{
+    -fx-border-color: #E50914;
+    -fx-background-color: #ACAEB0;
+}
+.hboxNonSelection:hover{
+    -fx-background-color: #000000; 
+}
+
+.hboxSelection{
+    -fx-background-color: #000000; 
+    -fx-border-color: #E50914; 
+    -fx-border-width: 0 0 0 5; 
+}
+.signButton{
+    -fx-background-color: #E50914;
+    -fx-background-radius: 5; /*tam yuvarla*/
+    
+}
+
+.comboBox{
+    -fx-background-color: #E50914;
+    -fx-text-fill: #ACAEB0;
+}
+.comboBox:hover{
+    -fx-background-color: transparent;
+}

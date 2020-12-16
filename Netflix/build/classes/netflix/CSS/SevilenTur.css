@@ -1,0 +1,15 @@
+
+
+.sevilenTurBackgroundImage{
+    -fx-background-image: url(../Image/SevilenTurBackground.jpg);
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+
+.check-box:selected .mark {
+    -fx-background-color: #5500FF;
+}
+
+.check-box:selected .box {
+    -fx-background-color: #000000;
+}

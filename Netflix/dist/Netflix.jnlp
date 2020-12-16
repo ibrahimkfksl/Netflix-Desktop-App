@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Netflix.jnlp">
+  <information>
+    <title>Netflix</title>
+    <vendor>Ýbrahim Kafkaslý</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Netflix.jar" size="4639531" download="eager" />
+    <jar href="lib\commons-lang3-3.10.jar" size="523372" download="eager" />
+    <jar href="lib\commons-logging-1.2.jar" size="61829" download="eager" />
+    <jar href="lib\hsqldb_6122.jar" size="1578303" download="eager" />
+    <jar href="lib\jackcess-3.0.1.jar" size="1271273" download="eager" />
+    <jar href="lib\ucanaccess-5.0.0.jar" size="387604" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Netflix" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="netflix.Netflix"  name="Netflix" />
+  <update check="always"/>
+</jnlp>

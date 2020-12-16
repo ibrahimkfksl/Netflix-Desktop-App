@@ -1,0 +1,40 @@
+
+
+.loginBackground{
+    
+    -fx-background-image: url(../Image/loginbackground.jpg);
+    -fx-background-repeat : no-repeat;
+    -fx-background-size: cover; 
+}
+
+.loginTransparent{
+   
+        -fx-background-color: #000000;
+       /* -fx-effect: dropshadow(gaussian, red, 50, 0, 0, 0); */
+      /*  -fx-background-insets: 50; */
+    
+}
+
+.text-field{
+    
+    -fx-background-color: #333333;
+    -fx-border-radius: 100 100 100 100;
+    -fx-font: #8C8C8C;
+    -fx-text-fill: #FFFFFF;
+}
+
+.signButton{
+    -fx-background-color: #E50914;
+    -fx-background-radius: 5; /*tam yuvarla*/
+    
+}
+
+
+.list-view .list-cell:even {
+-fx-background-color: blue;
+-fx-text-fill: black;
+}
+.list-view .list-cell:odd {
+-fx-background-color: blue;
+-fx-text-fill: black;
+}

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<fx:root prefHeight="96.0" prefWidth="224.0" styleClass="hboxNonSelection" stylesheets="@../CSS/AnaEkran.css" type="HBox" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox HBox.hgrow="ALWAYS">
+         <children>
+            <ImageView fx:id="resim" fitHeight="63.0" fitWidth="117.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Image/benefsaneyim.jpg" />
+               </image>
+            </ImageView>
+            <Label fx:id="puan" prefHeight="17.0" prefWidth="132.0" text="Puan:5.0" textFill="#fffb23" />
+         </children>
+      </VBox>
+      <VBox prefHeight="93.0" prefWidth="144.0" spacing="5.0">
+         <children>
+            <Label fx:id="filmAdi" prefHeight="20.0" prefWidth="116.0" text="Ben Efsaneyim" textFill="#752424" VBox.vgrow="ALWAYS">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="sure" prefHeight="17.0" prefWidth="116.0" text="Süre: 150 dakika" textFill="#752424">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="bolumSayisi" prefHeight="17.0" prefWidth="135.0" text="Bölüm Sayısı:1" textFill="#752424">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="filmTur" prefHeight="17.0" prefWidth="135.0" text="Film Tür" textFill="#752424">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Label>
+         </children>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </VBox>
+   </children>
+   <cursor>
+      <Cursor fx:constant="HAND" />
+   </cursor>
+</fx:root>
